@@ -30,10 +30,10 @@ Select * from campaign
 
 CREATE TABLE "category" (
     "category_id" varchar(10) Primary Key NOT NULL,
-    "category_name" varchar(50)   NOT NULL
+    "category" varchar(50)   NOT NULL
      )
 
-Select * from category 
+drop table category 
 CREATE TABLE "subcategory" (
     "subcategory_id" varchar(10) Primary Key NOT NULL,
     "subcategory_name" varchar(50)   NOT NULL

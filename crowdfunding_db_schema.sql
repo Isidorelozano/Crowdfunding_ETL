@@ -26,18 +26,18 @@ CREATE TABLE "campaign" (
     "subcategory_id" varchar(10) NOT NULL
 	)
 	
-drop table campaign
+Select * from campaign
 
 CREATE TABLE "category" (
     "category_id" varchar(10) Primary Key NOT NULL,
     "category_name" varchar(50)   NOT NULL
      )
 
-
+Select * from category 
 CREATE TABLE "subcategory" (
     "subcategory_id" varchar(10) Primary Key NOT NULL,
     "subcategory_name" varchar(50)   NOT NULL
      )     
 
-	 
+Select * from subcategory 	 
 	 
